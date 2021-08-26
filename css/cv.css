@@ -41,9 +41,10 @@ nav a {
   color: #8a8a8a;
   text-decoration: none;
   transition: color 0.5s;
+  border: 1px solid #8a8a8a;
 }
 a:hover {
-  border-bottom: 1px solid black;
+  border: 1px solid black;
 }
 nav a:hover {
   color: black;
