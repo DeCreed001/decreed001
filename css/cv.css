@@ -20,15 +20,19 @@ h1 a {
   text-shadow: 4px 4px 4px rgb(156, 170, 169);
 }
 h1 a:hover {
-  border-bottom: none;
+  border: none;
 }
 .mini {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0;
+  text-align: center;
+}
+.mini p {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
 }
 nav {
-  margin: 50px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -42,6 +46,8 @@ nav a {
   text-decoration: none;
   transition: color 0.5s;
   border: 1px solid #8a8a8a;
+  padding: 7px;
+  border-radius: 5px;
 }
 a:hover {
   border: 1px solid black;
@@ -50,7 +56,7 @@ nav a:hover {
   color: black;
 }
 .active {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .active a {
   color: black !important;
@@ -62,8 +68,8 @@ nav a:hover {
 }
 .rightbox {
   height: auto;
-  margin: 30px;
   padding: 0px;
+  margin: 0px 10px;
 }
 .leftbox img {
   width: 100%;
