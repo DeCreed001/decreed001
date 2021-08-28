@@ -60,6 +60,9 @@ header h1 a:hover {
   margin: 0px;
   font-size: 14px;
 }
+.mini a {
+  color: #545454;
+}
 h1,
 h2 {
   text-transform: uppercase;
